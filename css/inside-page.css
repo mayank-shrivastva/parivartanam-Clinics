@@ -1,0 +1,65 @@
+.about-hero {
+  background-image: url('/img/Hero.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  border-radius: 20px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.about-hero .overlay {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  color: white;
+}
+
+.about-hero .content {
+  max-width: 600px;
+}
+
+.about-hero h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 16px;
+  color: #eee;
+}
+
+.about-hero p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.about-hero p a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    height: 220px;
+    padding: 0;
+  }
+
+  .about-hero .overlay {
+    padding: 0 15px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .about-hero h1 {
+    font-size: 28px;
+  }
+
+  .about-hero p {
+    font-size: 14px;
+  }
+}

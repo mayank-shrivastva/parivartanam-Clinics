@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parivartanam Clinic</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/Hero.css" />
+    <link rel="stylesheet" href="css/Aboutus.css" />
+     <link rel="stylesheet" href="css/Contact-us.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo" />
+            <!-- <span>Parivartanam Clinic</span>-->
+        </div>
+
+       <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li>
+        <a href="#services">Services</a>
+        
+    </li>
+    <li>
+        <a href="#contact">Contact us</a>
+        
+    </li>
+
+
+    
+    
+</ul>
+
+
+
+        <button class="btn">
+            <a href="#book-appointment"> Book Appointment</a>
+            <div class="circle">→</div>
+        </button>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Start your healing journey <br> with Parivartanam Clinic</h1>
+                <p>
+                    Discover expert care through personalized <strong>therapies</strong>, accurate
+                    <strong>assessments</strong>, and focused treatment for various <strong>disorders</strong>.
+                    Our team at Parivartanam Clinic is dedicated to guiding you toward lasting recovery — physically,
+                    emotionally, and mentally.
+                </p>
+                <div class="hero-cta"><a href="#book-appointment">
+                        <button class="hero-btn">
+                            Book Your Session Now
+                            <span class="arrow">→</span>
+                        </button></a>
+                    <div class="avatars">
+                        <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="">
+                        <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="">
+                        <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="">
+                        <span>5.5k+ Happy Clients & Counting</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-modern">
+        <div class="image-column">
+            <div class="img-box large">
+                <img src="img/about1.jpg" alt="Main" />
+            </div>
+            <div class="img-row">
+                <div class="img-box small">
+                    <img src="img/about2.jpg" alt="Small1" />
+                </div>
+                <div class="img-box small">
+                    <img src="img/about3.jpg" alt="Small2" />
+                </div>
+            </div>
+        </div>
+        <div class="content-column">
+            <h5>About Us</h5>
+            <h2>Transforming Lives with Care & Compassion</h2>
+            <p>
+                At <strong>Parivartanam Clinic</strong>, we provide evidence-based, personalized care through
+                <strong>therapies</strong>, <strong>assessments</strong>, and <strong>disorder treatment
+                    programs</strong>. Our mission is to heal holistically — mind, body, and soul.
+            </p>
+            <ul class="about-points">
+                <li>✔ 5,000+ Happy Clients Served</li>
+                <li>✔ Licensed Therapists & Experts</li>
+                <li>✔ Customized Recovery Programs</li>
+            </ul>
+            
+        </div>
+    </section>
+
+
+    <section id="services" class="bg-green-50 py-16 px-4">
+        <div class="max-w-6xl mx-auto text-center">
+            <p class="text-sm font-semibold text-amber-600 uppercase mb-2">Our Services</p>
+            <h2 class="text-4xl font-bold text-slate-800 mb-4">
+                Explore the care and support we provide
+            </h2>
+            <p class="text-slate-600 max-w-2xl mx-auto mb-12">
+                We offer a variety of specialized services designed to support healing, growth, and long-term wellness.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Therapies -->
+                <div class="bg-white rounded-xl shadow p-6">
+                    <div class="text-3xl mb-4">🧠</div>
+                    <h3 class="text-lg font-semibold text-slate-800 mb-2">Therapies</h3>
+                    <p class="text-slate-600 text-sm">
+                        Individual, group, and family therapies tailored to your unique needs.
+                    </p>
+                   
+                </div>
+
+                <!-- Assessments -->
+                <div class="bg-white rounded-xl shadow p-6">
+                    <div class="text-3xl mb-4">📝</div>
+                    <h3 class="text-lg font-semibold text-slate-800 mb-2">Assessments</h3>
+                    <p class="text-slate-600 text-sm">
+                        In-depth psychological and clinical evaluations to guide treatment planning.
+                    </p>
+                    
+                </div>
+
+                <!-- Disorders -->
+                <div class="bg-white rounded-xl shadow p-6">
+                    <div class="text-3xl mb-4">💊</div>
+                    <h3 class="text-lg font-semibold text-slate-800 mb-2">Disorders We Treat</h3>
+                    <p class="text-slate-600 text-sm">
+                        Expert care for depression, anxiety, trauma, addiction, and more.
+                    </p>
+                    
+                </div>
+
+                <!-- Internship -->
+                <div class="bg-white rounded-xl shadow p-6">
+                    <div class="text-3xl mb-4">🎓</div>
+                    <h3 class="text-lg font-semibold text-slate-800 mb-2">Internship Program</h3>
+                    <p class="text-slate-600 text-sm">
+                        Gain hands-on experience with real-world clinical training opportunities.
+                    </p>
+                    
+                </div>
+            </div>
+
+            <!-- CTA at the end -->
+            <div class="mt-12">
+                <a href="#book-appointment"
+                    class="inline-block bg-amber-500 text-white text-sm font-semibold px-6 py-3 rounded-full shadow hover:bg-amber-600 transition">
+                    📅 Book an Appointment Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-16 px-4">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+            <!-- Left Content -->
+            <div>
+                <p class="text-sm text-amber-600 font-semibold uppercase mb-2">Why Choose Us</p>
+                <h2 class="text-4xl font-bold text-slate-800 mb-4">Why Parivartanam Clinic Stands Apart</h2>
+                <p class="text-slate-600 mb-6">
+                    At Parivartanam Clinic, we believe in true transformation—offering expert medical care, empathetic
+                    counseling, and personalized recovery plans that treat the whole person, not just the symptoms.
+                </p>
+
+
+                <!-- Features -->
+                <div class="grid sm:grid-cols-2 gap-6 mt-10">
+                    <div>
+                        <h4 class="text-lg font-semibold text-slate-800 mb-1">Healing Environment</h4>
+                        <p class="text-slate-600 text-sm">A safe, judgment-free space built for personal growth and
+                            recovery.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold text-slate-800 mb-1">Continued Aftercare</h4>
+                        <p class="text-slate-600 text-sm">We stay connected with you long after treatment ends.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Image & Badge -->
+            <div class="relative">
+                <img src="img/whychoseus.jpg"
+                    alt="Parivartanam Team" class="w-full rounded-xl shadow-lg">
+                <div
+                    class="absolute -bottom-6 left-6 bg-white rounded-xl shadow-lg px-6 py-4 flex items-center space-x-4">
+                    <div class="flex -space-x-2">
+                        <img src="https://randomuser.me/api/portraits/women/1.jpg"
+                            class="w-8 h-8 rounded-full border-2 border-white" alt="">
+                        <img src="https://randomuser.me/api/portraits/men/2.jpg"
+                            class="w-8 h-8 rounded-full border-2 border-white" alt="">
+                        <img src="https://randomuser.me/api/portraits/women/3.jpg"
+                            class="w-8 h-8 rounded-full border-2 border-white" alt="">
+                    </div>
+                    <div class="text-sm text-slate-700 font-semibold">
+                        Transformed <span class="text-amber-600">12,000+</span> Lives and Counting
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+<section id ="book-appointment">
+    <div class="max-w-4xl mx-auto p-4 sm:p-8 bg-white shadow-2xl rounded-3xl my-12 border border-gray-200">
+        <h2 class="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-8 sm:mb-10">
+            Book an Appointment at <span class="text-teal-600">Parivartanam Clinic</span>
+        </h2>
+
+        <!-- Progress Bar -->
+        <div class="flex flex-col md:flex-row md:justify-between items-center mb-10 sm:mb-12 gap-2 text-xs sm:text-sm">
+            <div class="step text-teal-600 font-bold">1. Consultation</div>
+            <div class="hidden md:block w-6 flex-grow h-0.5 bg-teal-400"></div>
+            <div class="step text-gray-400">2. Time</div>
+            <div class="hidden md:block w-6 flex-grow h-0.5 bg-gray-200"></div>
+            <div class="step text-gray-400">3. Summary</div>
+            <div class="hidden md:block w-6 flex-grow h-0.5 bg-gray-200"></div>
+            <div class="step text-gray-400">4. Your Details</div>
+            <div class="hidden md:block w-6 flex-grow h-0.5 bg-gray-200"></div>
+            <div class="step text-gray-400">5. Confirmation</div>
+        </div>
+
+        <!-- Step 1 -->
+        <div id="step1" class="step-box space-y-4 sm:space-y-6">
+            <div class="grid gap-4 sm:gap-6 md:grid-cols-2">
+                <div>
+                    <label class="block mb-1">Consultation Type</label>
+                    <select id="consultationType" class="w-full border rounded px-4 py-3">
+                        <option>Select consultation type</option>
+                        <option>Individual - Face to Face - 1h</option>
+                        <option>Follow-Up - Online - 45m</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block mb-1">Consultant</label>
+                    <select id="consultant" class="w-full border rounded px-4 py-3">
+                        <option>Any</option>
+                        <option>Dr. Riya Sharma</option>
+                        <option>Dr. Karan Mehta</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="grid gap-4 sm:gap-6 md:grid-cols-3">
+                <div>
+                    <label class="block mb-1">Date</label>
+                    <input id="date" type="date" class="w-full border rounded px-4 py-3">
+                </div>
+                <div>
+                    <label class="block mb-1">Start Time</label>
+                    <input id="startTime" type="time" value="08:00" class="w-full border rounded px-4 py-3">
+                </div>
+                <div>
+                    <label class="block mb-1">End Time</label>
+                    <input id="endTime" type="time" value="21:00" class="w-full border rounded px-4 py-3">
+                </div>
+            </div>
+
+            <div class="text-right">
+                <button onclick="goToStep(2)"
+                    class="bg-teal-600 text-white px-6 py-3 rounded hover:bg-teal-700 w-full md:w-auto">Continue
+                    →</button>
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div id="step2" class="step-box hidden space-y-6">
+            <h3 class="text-xl font-bold">Confirm Time</h3>
+            <p class="text-gray-700">You're about to book <span id="summary1"
+                    class="font-semibold text-teal-700"></span></p>
+            <div class="flex flex-col md:flex-row justify-between gap-4">
+                <button onclick="goToStep(1)"
+                    class="bg-gray-300 text-gray-800 px-6 py-3 rounded hover:bg-gray-400 w-full md:w-auto">←
+                    Back</button>
+                <button onclick="goToStep(3)"
+                    class="bg-teal-600 text-white px-6 py-3 rounded hover:bg-teal-700 w-full md:w-auto">Proceed
+                    →</button>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div id="step3" class="step-box hidden space-y-6">
+            <h3 class="text-xl font-bold">Appointment Summary</h3>
+            <ul class="text-gray-700 space-y-2">
+                <li><strong>Type:</strong> <span id="summaryType"></span></li>
+                <li><strong>Consultant:</strong> <span id="summaryConsultant"></span></li>
+                <li><strong>Date:</strong> <span id="summaryDate"></span></li>
+                <li><strong>Time:</strong> <span id="summaryTime"></span></li>
+            </ul>
+            <div class="flex flex-col md:flex-row justify-between gap-4">
+                <button onclick="goToStep(2)"
+                    class="bg-gray-300 text-gray-800 px-6 py-3 rounded hover:bg-gray-400 w-full md:w-auto">←
+                    Back</button>
+                <button onclick="goToStep(4)"
+                    class="bg-teal-600 text-white px-6 py-3 rounded hover:bg-teal-700 w-full md:w-auto">Continue
+                    →</button>
+            </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div id="step4" class="step-box hidden space-y-6">
+            <h3 class="text-xl font-bold">Your Details</h3>
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+                <input id="name" type="text" placeholder="Full Name" class="border w-full rounded px-4 py-3">
+                <input id="phone" type="text" placeholder="Phone Number" class="border w-full rounded px-4 py-3">
+            </div>
+            <input id="email" type="email" placeholder="Email Address" class="border w-full rounded px-4 py-3 mb-6">
+            <textarea id="notes" placeholder="Additional Notes" class="border w-full rounded px-4 py-3 mb-6"></textarea>
+            <div class="flex flex-col md:flex-row justify-between gap-4">
+                <button onclick="goToStep(3)"
+                    class="bg-gray-300 text-gray-800 px-6 py-3 rounded hover:bg-gray-400 w-full md:w-auto">←
+                    Back</button>
+                <button onclick="goToStep(5)"
+                    class="bg-teal-600 text-white px-6 py-3 rounded hover:bg-teal-700 w-full md:w-auto">Book
+                    Appointment</button>
+            </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div id="step5" class="step-box hidden text-center py-12">
+            <h3 class="text-2xl font-bold text-teal-600 mb-4">Thank You!</h3>
+            <p class="text-gray-700">Your appointment has been successfully booked.</p>
+            <button onclick="goToStep(1)"
+                class="mt-6 bg-gray-200 text-gray-800 px-6 py-3 rounded hover:bg-gray-300">Book Another
+                Appointment</button>
+        </div>
+    </div>
+    </div>
+</section>
+    <section class="max-w-5xl mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-center mb-10">ASSESSMENTS</h2>
+
+        <!-- Assessments Introduction -->
+        <p class="font-semibold text-gray-800 mb-6">
+            At the Center for Mental Health and Well-Being, we do the following assessments for both children and adults
+        </p>
+
+        <!-- General Assessments -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 border-t border-b py-6">
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Memory Testing</span>
+            </div>
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Learning Disabilities</span>
+            </div>
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Vocational Assessment, Aptitude Testing, and Interests Tests</span>
+            </div>
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Couple and Family Assessments</span>
+            </div>
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Intelligence (IQ) Testing</span>
+            </div>
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Autism Spectrum Assessment</span>
+            </div>
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Personality Assessments</span>
+            </div>
+            <div class="flex items-start space-x-2 md:col-span-2 lg:col-span-3">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Neuropsychological Assessments in case of Dementias, Epilepsy, and Traumatic Brain Injury</span>
+            </div>
+        </div>
+
+        <!-- Psychodiagnostic Clarification -->
+        <h3 class="font-semibold mt-10 mb-4">Psychodiagnostic Clarification for disorders like:</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 border-t border-b py-6">
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Depression</span>
+            </div>
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Eating Disorders</span>
+            </div>
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Dementias</span>
+            </div>
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Conduct, Behavioural and Developmental Disorders</span>
+            </div>
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Mania</span>
+            </div>
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Sexual Dysfunctions</span>
+            </div>
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Anxiety disorders</span>
+            </div>
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Obsessive Compulsive Disorders</span>
+            </div>
+            <div class="flex items-start space-x-2">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Personality Disorders</span>
+            </div>
+            <div class="flex items-start space-x-2 md:col-span-2 lg:col-span-3">
+                <span class="text-green-600 mt-1">✔</span>
+                <span>Schizophrenia and psychotic disorders</span>
+            </div>
+        </div>
+
+        <!-- Booking Info -->
+        <div class="text-center mt-10">
+            <p class="mb-4 text-gray-700">
+                Please book a first consultation with a mental health professional of your choice, so that a thorough
+                case history can be taken and the right assessments can be suggested.
+            </p>
+            <a href="#book-appointment"> <button
+                    class="bg-green-700 text-white px-6 py-3 rounded hover:bg-green-800 transition">Book an
+                    Appointment</button></a>
+        </div>
+
+
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-start">
+        <!-- Left Column: FAQ -->
+        <div>
+            <p class="text-sm uppercase text-yellow-600 font-semibold mb-2">Frequently Asked Question</p>
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Common questions about our rehab services</h2>
+
+            <div class="space-y-4">
+                <!-- Item 1 -->
+                <details class="group border rounded-lg overflow-hidden">
+                    <summary
+                        class="flex items-center justify-between px-4 py-3 cursor-pointer bg-orange-100 text-gray-800 font-semibold">
+                        Q1. What types of addiction do you treat?
+                        <span class="transition-transform group-open:rotate-45">+</span>
+                    </summary>
+                    <div class="px-4 py-3 text-sm text-gray-700 bg-white">
+                        We provide treatment for alcohol, prescription drugs, opioids, and more.
+                    </div>
+                </details>
+
+                <!-- Item 2 (Expanded) -->
+                <details class="group border rounded-lg overflow-hidden open">
+                    <summary
+                        class="flex items-center justify-between px-4 py-3 cursor-pointer bg-orange-100 text-gray-800 font-semibold">
+                        Q2. Do you offer personalized treatment plans?
+                        <span class="transition-transform group-open:rotate-45">−</span>
+                    </summary>
+                    <div class="px-4 py-3 text-sm text-gray-700 bg-white">
+                        We provide comprehensive treatment for a wide range of addictions, including alcohol,
+                        prescription medications, opioids, heroin, cocaine, methamphetamine, and other substances.
+                    </div>
+                </details>
+
+                <!-- Item 3 -->
+                <details class="group border rounded-lg overflow-hidden">
+                    <summary
+                        class="flex items-center justify-between px-4 py-3 cursor-pointer bg-orange-100 text-gray-800 font-semibold">
+                        Q3. How do I know if I need rehab?
+                        <span class="transition-transform group-open:rotate-45">+</span>
+                    </summary>
+                    <div class="px-4 py-3 text-sm text-gray-700 bg-white">
+                        Signs may include dependency, withdrawal symptoms, and failed attempts to quit. A consultation
+                        helps determine the need.
+                    </div>
+                </details>
+
+                <!-- Item 4 -->
+                <details class="group border rounded-lg overflow-hidden">
+                    <summary
+                        class="flex items-center justify-between px-4 py-3 cursor-pointer bg-orange-100 text-gray-800 font-semibold">
+                        Q4. What kinds of programs do you offer?
+                        <span class="transition-transform group-open:rotate-45">+</span>
+                    </summary>
+                    <div class="px-4 py-3 text-sm text-gray-700 bg-white">
+                        We offer inpatient, outpatient, detox, and counseling programs based on individual needs.
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <!-- Right Column: Image + CTA -->
+        <div class="relative">
+            <img src="img/faq.jpg"
+                alt="Therapy session" class="rounded-xl shadow-lg w-full object-cover">
+
+            <!-- CTA Box -->
+            <div
+                class="absolute bottom-4 left-4 right-4 bg-blue-900 text-white rounded-xl p-6 flex flex-col md:flex-row items-center justify-between gap-4">
+                <div>
+                    <p class="text-lg font-semibold">Need Any Help? We're Here To Help You!</p>
+                </div>
+                <a href="contact.html">
+                    <button
+                        class="flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded shadow-md transition">
+                        Contact Us Now
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8 12h8m0 0l-4-4m4 4l-4 4" />
+                        </svg>
+                    </button></a>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+  <div class="contact-container">
+    <div class="section-header">
+      <h2>Contact Us</h2>
+      <p>We're here to help you start your journey toward healing. Get in touch today.</p>
+    </div>
+
+    <div class="contact-wrapper">
+      <div class="contact-details">
+        <h3>Clinic Information</h3>
+        <ul>
+          <li><strong>Address:</strong> Shop no 22, Landmark building, medical mor, near Narula diagnostic centre, Rohtak, Haryana 124001</li>
+          <li><strong>Email:</strong> contact@parivartanamclinic.com</li>
+          <li><strong>Phone:</strong> +91-95184 48024</li>
+          <li><strong>Working Hours:</strong> Mon - Sat: 10 AM – 6 PM</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" action="#" method="POST">
+        <h3>Send Us a Message</h3>
+        <div class="form-grid">
+          <input type="text" name="name" placeholder="Full Name" required />
+          <input type="email" name="email" placeholder="Email Address" required />
+        </div>
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+    <footer class="bg-[#1F4D57] text-white pt-10 pb-4 rounded-t-2xl">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <!-- Left Section -->
+            <div>
+                <div class="flex items-center mb-4">
+                    <div
+                        class="">
+                        </div>
+                    <h2 class="ml-3 text-xl font-semibold">Parivartanam Clinic</h2>
+                </div>
+                <p class="text-gray-300 mb-4">
+                    We provide trusted, personalized care for lasting mental health and emotional well-being.
+                </p>
+                <div class="flex flex-col space-y-2 text-sm">
+                    <div class="flex items-center gap-2">
+                        <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path d="M16 12H8m0 0l4-4m-4 4l4 4"></path>
+                        </svg>
+                        <span>Email: <a href="mailto:contact@xyz.in" class="hover:underline">contact@xyz.in</a></span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M3 5h2l.4 2M7 5h10l1 2h2a1 1 0 011 1v9a1 1 0 01-1 1h-2l-1 2H7l-1-2H4a1 1 0 01-1-1V8a1 1 0 011-1h2l.4-2z">
+                            </path>
+                        </svg>
+                        <span>Phone: <a href="tel:+919876543210" class="hover:underline">+91 98765 43210</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Section -->
+            <div>
+                <h3 class="text-2xl font-semibold mb-4">Subscribe for Mental Health Tips</h3>
+                <p class="text-gray-300 mb-4">Get weekly insights and guidance on emotional wellness straight to your
+                    inbox.</p>
+                <form class="flex items-center bg-white rounded-md overflow-hidden">
+                    <input type="email" placeholder="Enter your email"
+                        class="flex-1 px-4 py-2 text-black outline-none" />
+                    <button type="submit" class="bg-orange-400 hover:bg-orange-500 px-4 py-2">
+                        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M2.94 2.94a.75.75 0 011.06 0L17.03 16.97a.75.75 0 01-1.06 1.06L2.94 4A.75.75 0 012.94 2.94z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="border-t border-gray-600 mt-8 pt-4 text-sm text-center text-gray-400">
+            <div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-4">
+                <p>© 2025 . All rights reserved.</p>
+                <div class="flex space-x-6 mt-3 md:mt-0">
+                    <a href="" class="hover:text-white">Home</a>
+                    <a href="about.html" class="hover:text-white">About Us</a>
+
+                    <a href="/contact.html" class="hover:text-white">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/appoiment.js"></script>
+</body>
+
+</html>

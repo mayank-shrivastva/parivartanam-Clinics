@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parivartanam Clinic</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/inside-page.css" />
+    <link rel="stylesheet" href="css/extra.css" />
+    <link rel="stylesheet" href="css/Aboutus.css" />
+    <link rel="stylesheet" href="css/Services.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://via.placeholder.com/40x40.png?text=P" alt="Logo" />
+            <!-- <span>Parivartanam Clinic</span>-->
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="services">
+                <a href="#">Services</a>
+                <div class="dropdown">
+                    <a href="therapies.html">Therapies</a>
+                    <a href="assessments.html">Assessments</a>
+                    <a href="disorders.html">Disorders</a>
+                    <a href="internship.html">Internship Program</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+<a href="book-appointment.html">
+        <button class="btn">
+            Book Appointment
+            <div class="circle">→</div>
+        </button></a>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <section class="about-hero">
+        <div class="overlay">
+            <div class="content">
+                <h1>Disorders</h1>
+                <p><a href="index.html">Home</a> / Disorders</p>
+            </div>
+        </div>
+    </section>
+   <div class="section-wrapper">
+    <div class="top-section">
+        <div class="services-box">
+            <h4>Book an Appointment</h4>
+            <ul>
+                <li>Talk to a Licensed Psychologist</li>
+                <li>Get Matched to the Right Therapist</li>
+                <li>Online & In-Person Sessions</li>
+                <li>Confidential & Safe Environment</li>
+                <li>Flexible Timings Available</li>
+                <li>Tailored Treatment Plans</li>
+                <li>Immediate Support for Urgent Needs</li>
+            </ul>
+        </div>
+
+        <div class="main-image-text">
+            <img src="img/appointment.jpg" alt="Therapy appointment session">
+            <p>
+                At <strong>Parivartanam Clinic</strong>, taking the first step toward healing is just an appointment away. Our easy booking process connects you with compassionate professionals who listen, understand, and support your journey to mental wellness.
+            </p>
+        </div>
+    </div>
+
+    <div class="support-section">
+        <h2>Your first step to healing starts here</h2>
+        <p>
+            Whether you're facing stress, anxiety, trauma, or simply seeking clarity, our dedicated team is here to help. Book a session tailored to your needs—confidential, respectful, and effective.
+        </p>
+
+        <div class="support-highlights">
+            <div class="highlight-box">
+                <i class="fas fa-calendar-check icon"></i>
+                <p>Easy & Hassle-Free Booking</p>
+            </div>
+            <div class="highlight-box">
+                <i class="fas fa-user-md icon"></i>
+                <p>Expert Mental Health Professionals</p>
+            </div>
+            <div class="highlight-box">
+                <i class="fas fa-shield-alt icon"></i>
+                <p>Confidential & Private Sessions</p>
+            </div>
+            <div class="highlight-box">
+                <i class="fas fa-clock icon"></i>
+                <p>Flexible Scheduling Options</p>
+            </div>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat-item"><strong>1000+</strong><span>Appointments Scheduled</span></div>
+            <div class="stat-item"><strong>92%</strong><span>Reported Feeling Better</span></div>
+            <div class="stat-item"><strong>30+</strong><span>Qualified Specialists</span></div>
+            <div class="stat-item"><strong>24/7</strong><span>Booking Availability</span></div>
+        </div>
+    </div>
+
+    <div class="priority-section">
+        <h2>Why Choose Parivartanam for Your Mental Health Needs</h2>
+        <p>
+            Booking a session with us means prioritizing your well-being. Here's why individuals trust us with their mental health care:
+        </p>
+
+        <div class="priority-items">
+            <div class="priority-box">
+                <span>01</span>
+                <div>
+                    <strong>Personalized Matching</strong>
+                    <p>We carefully connect you with the therapist best suited for your needs and preferences.</p>
+                </div>
+            </div>
+            <div class="priority-box">
+                <span>02</span>
+                <div>
+                    <strong>Convenient Booking Options</strong>
+                    <p>Schedule online or offline, choose your time, and start therapy on your terms.</p>
+                </div>
+            </div>
+            <div class="priority-box">
+                <span>03</span>
+                <div>
+                    <strong>Trusted & Compassionate Care</strong>
+                    <p>Our team creates a non-judgmental space where your healing journey feels safe and supported.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="max-w-4xl mx-auto p-4 sm:p-8 bg-white shadow-2xl rounded-3xl my-12 border border-gray-200">
+        <h2 class="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-8 sm:mb-10">
+            Book an Appointment at <span class="text-teal-600">Parivartanam Clinic</span>
+        </h2>
+
+        <!-- Progress Bar -->
+        <div class="flex flex-col md:flex-row md:justify-between items-center mb-10 sm:mb-12 gap-2 text-xs sm:text-sm">
+            <div class="step text-teal-600 font-bold">1. Consultation</div>
+            <div class="hidden md:block w-6 flex-grow h-0.5 bg-teal-400"></div>
+            <div class="step text-gray-400">2. Time</div>
+            <div class="hidden md:block w-6 flex-grow h-0.5 bg-gray-200"></div>
+            <div class="step text-gray-400">3. Summary</div>
+            <div class="hidden md:block w-6 flex-grow h-0.5 bg-gray-200"></div>
+            <div class="step text-gray-400">4. Your Details</div>
+            <div class="hidden md:block w-6 flex-grow h-0.5 bg-gray-200"></div>
+            <div class="step text-gray-400">5. Confirmation</div>
+        </div>
+
+        <!-- Step 1 -->
+        <div id="step1" class="step-box space-y-4 sm:space-y-6">
+            <div class="grid gap-4 sm:gap-6 md:grid-cols-2">
+                <div>
+                    <label class="block mb-1">Consultation Type</label>
+                    <select id="consultationType" class="w-full border rounded px-4 py-3">
+                        <option>Select consultation type</option>
+                        <option>Individual - Face to Face - 1h</option>
+                        <option>Follow-Up - Online - 45m</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block mb-1">Consultant</label>
+                    <select id="consultant" class="w-full border rounded px-4 py-3">
+                        <option>Any</option>
+                        <option>Dr. Riya Sharma</option>
+                        <option>Dr. Karan Mehta</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="grid gap-4 sm:gap-6 md:grid-cols-3">
+                <div>
+                    <label class="block mb-1">Date</label>
+                    <input id="date" type="date" class="w-full border rounded px-4 py-3"/>
+                </div>
+                <div>
+                    <label class="block mb-1">Start Time</label>
+                    <input id="startTime" type="time" class="w-full border rounded px-4 py-3">
+                </div>
+                <div>
+                    <label class="block mb-1">End Time</label>
+                    <input id="endTime" type="time" class="w-full border rounded px-4 py-3">
+                </div>
+            </div>
+
+            <div class="text-right">
+                <button onclick="goToStep(2)"
+                    class="bg-teal-600 text-white px-6 py-3 rounded hover:bg-teal-700 w-full md:w-auto">Continue
+                    →</button>
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div id="step2" class="step-box hidden space-y-6">
+            <h3 class="text-xl font-bold">Confirm Time</h3>
+            <p class="text-gray-700">You're about to book <span id="summary1"
+                    class="font-semibold text-teal-700"></span></p>
+            <div class="flex flex-col md:flex-row justify-between gap-4">
+                <button onclick="goToStep(1)"
+                    class="bg-gray-300 text-gray-800 px-6 py-3 rounded hover:bg-gray-400 w-full md:w-auto">←
+                    Back</button>
+                <button onclick="goToStep(3)"
+                    class="bg-teal-600 text-white px-6 py-3 rounded hover:bg-teal-700 w-full md:w-auto">Proceed
+                    →</button>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div id="step3" class="step-box hidden space-y-6">
+            <h3 class="text-xl font-bold">Appointment Summary</h3>
+            <ul class="text-gray-700 space-y-2">
+                <li><strong>Type:</strong> <span id="summaryType"></span></li>
+                <li><strong>Consultant:</strong> <span id="summaryConsultant"></span></li>
+                <li><strong>Date:</strong> <span id="summaryDate"></span></li>
+                <li><strong>Time:</strong> <span id="summaryTime"></span></li>
+            </ul>
+            <div class="flex flex-col md:flex-row justify-between gap-4">
+                <button onclick="goToStep(2)"
+                    class="bg-gray-300 text-gray-800 px-6 py-3 rounded hover:bg-gray-400 w-full md:w-auto">←
+                    Back</button>
+                <button onclick="goToStep(4)"
+                    class="bg-teal-600 text-white px-6 py-3 rounded hover:bg-teal-700 w-full md:w-auto">Continue
+                    →</button>
+            </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div id="step4" class="step-box hidden space-y-6">
+            <h3 class="text-xl font-bold">Your Details</h3>
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+                <input id="name" type="text" placeholder="Full Name" class="border w-full rounded px-4 py-3">
+                <input id="phone" type="text" placeholder="Phone Number" class="border w-full rounded px-4 py-3">
+            </div>
+            <input id="email" type="email" placeholder="Email Address" class="border w-full rounded px-4 py-3 mb-6">
+            <textarea id="notes" placeholder="Additional Notes" class="border w-full rounded px-4 py-3 mb-6"></textarea>
+            <div class="flex flex-col md:flex-row justify-between gap-4">
+                <button onclick="goToStep(3)"
+                    class="bg-gray-300 text-gray-800 px-6 py-3 rounded hover:bg-gray-400 w-full md:w-auto">←
+                    Back</button>
+                <button onclick="goToStep(5)"
+                    class="bg-teal-600 text-white px-6 py-3 rounded hover:bg-teal-700 w-full md:w-auto">Book
+                    Appointment</button>
+            </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div id="step5" class="step-box hidden text-center py-12">
+            <h3 class="text-2xl font-bold text-teal-600 mb-4">Thank You!</h3>
+            <p class="text-gray-700">Your appointment has been successfully booked.</p>
+            <button onclick="goToStep(1)"
+                class="mt-6 bg-gray-200 text-gray-800 px-6 py-3 rounded hover:bg-gray-300">Book Another
+                Appointment</button>
+        </div>
+    </div>
+    </div>
+
+
+
+    <footer class="bg-[#1F4D57] text-white pt-10 pb-4 rounded-t-2xl">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <!-- Left Section -->
+            <div>
+                <div class="flex items-center mb-4">
+                    <div
+                        class="w-10 h-10 bg-orange-400 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                        CM</div>
+                    <h2 class="ml-3 text-xl font-semibold">Parivartanam Clinic</h2>
+                </div>
+                <p class="text-gray-300 mb-4">
+                    We provide trusted, personalized care for lasting mental health and emotional well-being.
+                </p>
+                <div class="flex flex-col space-y-2 text-sm">
+                    <div class="flex items-center gap-2">
+                        <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path d="M16 12H8m0 0l4-4m-4 4l4 4"></path>
+                        </svg>
+                        <span>Email: <a href="mailto:contact@xyz.in" class="hover:underline">contact@xyz.in</a></span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M3 5h2l.4 2M7 5h10l1 2h2a1 1 0 011 1v9a1 1 0 01-1 1h-2l-1 2H7l-1-2H4a1 1 0 01-1-1V8a1 1 0 011-1h2l.4-2z">
+                            </path>
+                        </svg>
+                        <span>Phone: <a href="tel:+919876543210" class="hover:underline">+91 98765 43210</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Section -->
+            <div>
+                <h3 class="text-2xl font-semibold mb-4">Subscribe for Mental Health Tips</h3>
+                <p class="text-gray-300 mb-4">Get weekly insights and guidance on emotional wellness straight to your
+                    inbox.</p>
+                <form class="flex items-center bg-white rounded-md overflow-hidden">
+                    <input type="email" placeholder="Enter your email"
+                        class="flex-1 px-4 py-2 text-black outline-none" />
+                    <button type="submit" class="bg-orange-400 hover:bg-orange-500 px-4 py-2">
+                        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M2.94 2.94a.75.75 0 011.06 0L17.03 16.97a.75.75 0 01-1.06 1.06L2.94 4A.75.75 0 012.94 2.94z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="border-t border-gray-600 mt-8 pt-4 text-sm text-center text-gray-400">
+            <div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-4">
+                <p>© 2025 . All rights reserved.</p>
+               <div class="flex space-x-6 mt-3 md:mt-0">
+                    <a href="" class="hover:text-white">Home</a>
+                    <a href="about.html" class="hover:text-white">About Us</a>
+                  
+                    <a href="contact.html" class="hover:text-white">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/appoiment.js"></script>
+</body>
+
+</html>

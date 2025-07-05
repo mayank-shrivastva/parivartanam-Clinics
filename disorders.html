@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parivartanam Clinic</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/inside-page.css" />
+    <link rel="stylesheet" href="css/extra.css" />
+    <link rel="stylesheet" href="css/Aboutus.css" />
+    <link rel="stylesheet" href="css/Services.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://via.placeholder.com/40x40.png?text=P" alt="Logo" />
+            <!-- <span>Parivartanam Clinic</span>-->
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="services">
+                <a href="#">Services</a>
+                <div class="dropdown">
+                    <a href="therapies.html">Therapies</a>
+                    <a href="assessments.html">Assessments</a>
+                    <a href="disorders.html">Disorders</a>
+                    <a href="internship.html">Internship Program</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+<a href="book-appointment.html">
+        <button class="btn">
+            Book Appointment
+            <div class="circle">→</div>
+        </button></a>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <section class="about-hero">
+        <div class="overlay">
+            <div class="content">
+                <h1>Disorders</h1>
+                <p><a href="index.html">Home</a> / Disorders</p>
+            </div>
+        </div>
+    </section>
+   <div class="section-wrapper">
+    <div class="top-section">
+        <div class="services-box">
+            <h4>Disorders We Address</h4>
+            <ul>
+                <li>Depression</li>
+                <li>Anxiety Disorders</li>
+                <li>Obsessive-Compulsive Disorder (OCD)</li>
+                <li>Post-Traumatic Stress Disorder (PTSD)</li>
+                <li>Attention-Deficit/Hyperactivity Disorder (ADHD)</li>
+                <li>Bipolar Disorder</li>
+                <li>Personality Disorders</li>
+            </ul>
+        </div>
+
+        <div class="main-image-text">
+            <img src="img/disorder.jpg" alt="Mental health awareness">
+            <p>
+                At <strong>Parivartanam Clinic</strong>, we provide specialized care for a range of psychological and emotional disorders. Our approach combines accurate diagnosis, personalized treatment, and holistic support to ensure each person receives the care they truly need.
+            </p>
+        </div>
+    </div>
+
+    <div class="support-section">
+        <h2>Understanding your mind with clarity</h2>
+        <p>
+            Mental health disorders are real, common, and treatable. Through compassionate diagnosis and evidence-based treatments, we help individuals reclaim stability, strength, and hope.
+        </p>
+
+        <div class="support-highlights">
+            <div class="highlight-box">
+                <i class="fas fa-notes-medical icon"></i>
+                <p>Comprehensive Psychological Evaluations</p>
+            </div>
+            <div class="highlight-box">
+                <i class="fas fa-user-check icon"></i>
+                <p>Individualized Treatment for Each Disorder</p>
+            </div>
+            <div class="highlight-box">
+                <i class="fas fa-hands-helping icon"></i>
+                <p>Supportive, Non-Judgmental Care Approach</p>
+            </div>
+            <div class="highlight-box">
+                <i class="fas fa-chart-line icon"></i>
+                <p>Ongoing Monitoring & Progress Tracking</p>
+            </div>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat-item"><strong>300+</strong><span>Diagnosed with Precision</span></div>
+            <div class="stat-item"><strong>90%</strong><span>Treatment Success Rate</span></div>
+            <div class="stat-item"><strong>15+</strong><span>Disorders Treated</span></div>
+            <div class="stat-item"><strong>100%</strong><span>Client Confidentiality</span></div>
+        </div>
+    </div>
+
+    <div class="priority-section">
+        <h2>Your mental clarity is our mission</h2>
+        <p>
+            Every mind matters. Our diagnostic and care processes ensure that individuals living with mental disorders receive the attention, empathy, and expert help they need to thrive.
+        </p>
+
+        <div class="priority-items">
+            <div class="priority-box">
+                <span>01</span>
+                <div>
+                    <strong>Accurate Diagnosis & Early Detection</strong>
+                    <p>We use standardized assessments and clinical interviews to identify disorders with accuracy and sensitivity.</p>
+                </div>
+            </div>
+            <div class="priority-box">
+                <span>02</span>
+                <div>
+                    <strong>Multidisciplinary Care Approach</strong>
+                    <p>Our team collaborates across therapy, psychiatry, and wellness disciplines to provide the most effective care plans.</p>
+                </div>
+            </div>
+            <div class="priority-box">
+                <span>03</span>
+                <div>
+                    <strong>Ongoing Support & Relapse Prevention</strong>
+                    <p>We offer continuous care, relapse management strategies, and regular follow-ups to ensure long-term recovery and growth.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <footer class="bg-[#1F4D57] text-white pt-10 pb-4 rounded-t-2xl">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <!-- Left Section -->
+            <div>
+                <div class="flex items-center mb-4">
+                    <div
+                        class="w-10 h-10 bg-orange-400 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                        CM</div>
+                    <h2 class="ml-3 text-xl font-semibold">Parivartanam Clinic</h2>
+                </div>
+                <p class="text-gray-300 mb-4">
+                    We provide trusted, personalized care for lasting mental health and emotional well-being.
+                </p>
+                <div class="flex flex-col space-y-2 text-sm">
+                    <div class="flex items-center gap-2">
+                        <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path d="M16 12H8m0 0l4-4m-4 4l4 4"></path>
+                        </svg>
+                        <span>Email: <a href="mailto:contact@xyz.in" class="hover:underline">contact@xyz.in</a></span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M3 5h2l.4 2M7 5h10l1 2h2a1 1 0 011 1v9a1 1 0 01-1 1h-2l-1 2H7l-1-2H4a1 1 0 01-1-1V8a1 1 0 011-1h2l.4-2z">
+                            </path>
+                        </svg>
+                        <span>Phone: <a href="tel:+919876543210" class="hover:underline">+91 98765 43210</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Section -->
+            <div>
+                <h3 class="text-2xl font-semibold mb-4">Subscribe for Mental Health Tips</h3>
+                <p class="text-gray-300 mb-4">Get weekly insights and guidance on emotional wellness straight to your
+                    inbox.</p>
+                <form class="flex items-center bg-white rounded-md overflow-hidden">
+                    <input type="email" placeholder="Enter your email"
+                        class="flex-1 px-4 py-2 text-black outline-none" />
+                    <button type="submit" class="bg-orange-400 hover:bg-orange-500 px-4 py-2">
+                        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M2.94 2.94a.75.75 0 011.06 0L17.03 16.97a.75.75 0 01-1.06 1.06L2.94 4A.75.75 0 012.94 2.94z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="border-t border-gray-600 mt-8 pt-4 text-sm text-center text-gray-400">
+            <div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-4">
+                <p>© 2025 . All rights reserved.</p>
+               <div class="flex space-x-6 mt-3 md:mt-0">
+                    <a href="" class="hover:text-white">Home</a>
+                    <a href="about.html" class="hover:text-white">About Us</a>
+                  
+                    <a href="contact.html" class="hover:text-white">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/appoiment.js"></script>
+</body>
+
+</html>
